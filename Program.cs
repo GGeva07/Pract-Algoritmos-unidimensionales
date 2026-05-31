@@ -43,7 +43,32 @@ namespace AlgoritmosUnidimensionales
 
         static void VentasDiarias()
         {
+            double[] ventas = new double[7];
+            double total = 0;
+            double maxVenta = 0;
+            int diaMax = 0;
 
+            for (int i = 0; i < 7; i++)
+            {
+                Console.Write($"Ingrese la venta del día {i + 1}: ");
+                while (!double.TryParse(Console.ReadLine() ?? "0", out ventas[i]))
+                {
+                    Console.Write("entrada invalida ingrese un numero correcto");
+                }
+                total += ventas[i];
+
+                if (i == 0 || ventas[i] > maxVenta)
+                {
+                    maxVenta = ventas[i];
+                    diaMax = i + 1;
+                }
+            }
+
+            double promedio = total / 7;
+
+            Console.WriteLine($"\nTotal vendido en la semana {total}");
+            Console.WriteLine($"Promedio diario {promedio}");
+            Console.WriteLine($"Dia con la venta maxima: Dia {diaMax} ({maxVenta})");
         }
 
         static void Temperaturas()
