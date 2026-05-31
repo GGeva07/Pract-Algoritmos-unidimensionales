@@ -104,7 +104,23 @@ namespace AlgoritmosUnidimensionales
 
         static void InversionArreglo()
         {
+            int[] numeros = new int[6];
 
+            for (int i = 0; i < 6; i++)
+            {
+                Console.Write($"Ingrese el numero {i + 1}: ");
+                while (!int.TryParse(Console.ReadLine() ?? "0", out numeros[i]))
+                {
+                    Console.Write("Entrada invalida ingrse un numero correcto");
+                }
+            }
+
+            Console.WriteLine("\nArreglo en orden inverso");
+            for (int i = 5; i >= 0; i--)
+            {
+                Console.Write($"{numeros[i]} ");
+            }
+            Console.WriteLine();
         }
     }
 }
