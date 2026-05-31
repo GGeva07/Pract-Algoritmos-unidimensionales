@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Algoritmos unidimensionales")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a410441e7edce6f4a3fa62f16eddf25d10d4c60")]
 [assembly: System.Reflection.AssemblyProductAttribute("Algoritmos unidimensionales")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Algoritmos unidimensionales")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

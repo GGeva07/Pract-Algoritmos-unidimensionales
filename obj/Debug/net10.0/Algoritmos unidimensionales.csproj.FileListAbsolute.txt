@@ -1,0 +1,15 @@
+/home/eva/Proyectos/Estructura de datos/Algoritmos unidimensionales/bin/Debug/net10.0/Algoritmos unidimensionales
+/home/eva/Proyectos/Estructura de datos/Algoritmos unidimensionales/bin/Debug/net10.0/Algoritmos unidimensionales.deps.json
+/home/eva/Proyectos/Estructura de datos/Algoritmos unidimensionales/bin/Debug/net10.0/Algoritmos unidimensionales.runtimeconfig.json
+/home/eva/Proyectos/Estructura de datos/Algoritmos unidimensionales/bin/Debug/net10.0/Algoritmos unidimensionales.dll
+/home/eva/Proyectos/Estructura de datos/Algoritmos unidimensionales/bin/Debug/net10.0/Algoritmos unidimensionales.pdb
+/home/eva/Proyectos/Estructura de datos/Algoritmos unidimensionales/obj/Debug/net10.0/Algoritmos unidimensionales.GeneratedMSBuildEditorConfig.editorconfig
+/home/eva/Proyectos/Estructura de datos/Algoritmos unidimensionales/obj/Debug/net10.0/Algoritmos unidimensionales.AssemblyInfoInputs.cache
+/home/eva/Proyectos/Estructura de datos/Algoritmos unidimensionales/obj/Debug/net10.0/Algoritmos unidimensionales.AssemblyInfo.cs
+/home/eva/Proyectos/Estructura de datos/Algoritmos unidimensionales/obj/Debug/net10.0/Algoritmos unidimensionales.csproj.CoreCompileInputs.cache
+/home/eva/Proyectos/Estructura de datos/Algoritmos unidimensionales/obj/Debug/net10.0/Algoritmos unidimensionales.sourcelink.json
+/home/eva/Proyectos/Estructura de datos/Algoritmos unidimensionales/obj/Debug/net10.0/Algoritmos unidimensionales.dll
+/home/eva/Proyectos/Estructura de datos/Algoritmos unidimensionales/obj/Debug/net10.0/refint/Algoritmos unidimensionales.dll
+/home/eva/Proyectos/Estructura de datos/Algoritmos unidimensionales/obj/Debug/net10.0/Algoritmos unidimensionales.pdb
+/home/eva/Proyectos/Estructura de datos/Algoritmos unidimensionales/obj/Debug/net10.0/Algoritmos unidimensionales.genruntimeconfig.cache
+/home/eva/Proyectos/Estructura de datos/Algoritmos unidimensionales/obj/Debug/net10.0/ref/Algoritmos unidimensionales.dll
