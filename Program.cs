@@ -73,7 +73,33 @@ namespace AlgoritmosUnidimensionales
 
         static void Temperaturas()
         {
+            double[] temps = new double[10];
+            double total = 0;
+            double max = double.MinValue;
+            double min = double.MaxValue;
+            int diasmayor30 = 0;
 
+            for (int i = 0; i < 10; i++)
+            {
+                Console.Write($"Ingrese la temperatura del dia {i + 1}: ");
+                while (!double.TryParse(Console.ReadLine() ?? "0", out temps[i]))
+                {
+                    Console.Write("entrada invalida ingrese un numero correcto");
+                }
+
+                total += temps[i];
+
+                if (temps[i] > max) max = temps[i];
+                if (temps[i] < min) min = temps[i];
+                if (temps[i] > 30) diasmayor30++;
+            }
+
+            double promedio = total / 10;
+
+            Console.WriteLine($"\nTemperatura mas alta {max}C");
+            Console.WriteLine($"Temperatura mas baja {min}C");
+            Console.WriteLine($"Promedio de temperaturas {promedio}C");
+            Console.WriteLine($"Dias por encima de 30C {diasmayor30}");
         }
 
         static void InversionArreglo()
